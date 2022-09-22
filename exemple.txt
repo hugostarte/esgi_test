@@ -1,2 +1,13 @@
 Coucou
 je suis la mise a jour
+
+git branch
+git checkout coucou
+git add exemple.txt
+git commit -m "branche coucou"
+git push -u origin coucou
+
+git checkout main
+git merge coucou
+git add exemple.txt
+git commit -m "fusion des branches"
